@@ -1,5 +1,6 @@
 import preprocess from 'svelte-preprocess';
 import svg from '@poppanator/sveltekit-svg';
+import vercel from '@sveltejs/adapter-vercel';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	// Consult https://github.com/sveltejs/svelte-preprocess
@@ -11,7 +12,8 @@ const config = {
 		target: '#svelte',
 		vite: {
 			plugins: [svg()]
-		}
+		},
+		adapter: vercel()
 	}
 };
 
