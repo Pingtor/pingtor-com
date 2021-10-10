@@ -92,11 +92,6 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.10.2.tgz#0798c03351f0dea1a5a4cabddf26a55a7cbee590"
   integrity sha512-IXf3XA7+XyN7CP9gGh/XB0UxVMlvARGEgGXLubFICsUMGz6Q+DU+i4gGlpOxTjKvXjkJDJC8YdqdKkDj9qZHEQ==
 
-"@popperjs/svelte@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@popperjs/svelte/-/svelte-0.1.1.tgz#217ff474e2b11319b8edd1d58b809fb9643e5906"
-  integrity sha512-/zhQ0TI5cqhY/tlI+4FiU/Cn1jpQwJQTeOYor2HuQXFp+XRI07t9247OEGRqUvUBlENrVLDSPh6FU3B2MVrKSw==
-
 "@rollup/pluginutils@^4.1.1":
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.1.1.tgz#1d4da86dd4eded15656a57d933fda2b9a08d47ec"
@@ -1862,6 +1857,11 @@ svelte-hmr@^0.14.7:
   version "0.14.7"
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.7.tgz#7fa8261c7b225d9409f0a86f3b9ea5c3ca6f6607"
   integrity sha512-pDrzgcWSoMaK6AJkBWkmgIsecW0GChxYZSZieIYfCP0v2oPyx2CYU/zm7TBIcjLVUPP714WxmViE9Thht4etog==
+
+svelte-popperjs@^1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/svelte-popperjs/-/svelte-popperjs-1.2.6.tgz#3bd8027541a43c7bec2b88e2a0a31b81d22f599a"
+  integrity sha512-xSCAZZgSbjVVfN3GtvWxUypP7jELAdKW6r7PS6bxRN23pCnJPcbPlOjmk8pK5uiMdYWSaib/oy/+EgthrzI1Hw==
 
 svelte-preprocess@^4.0.0, svelte-preprocess@^4.9.4:
   version "4.9.8"

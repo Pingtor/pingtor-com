@@ -1,32 +1,31 @@
 <script lang="ts">
 	import World from '../components/world.svelte';
-	let m = { x: 0, y: 0 };
-	function handleMouseMove(event: MouseEvent) {
-		m.x = event.clientX;
-		m.y = event.clientY;
-	}
 </script>
 
 <svelte:head>
 	<title>Pingtor - start imagine.</title>
 </svelte:head>
-<div
-	class="flex items-center justify-center h-full w-full relative cursor-none"
-	on:mousemove={handleMouseMove}
->
-	<div class="cursor-custom" style="top: {m.y}px; left: {m.x}px" />
-	<World />
+
+<div class="w-full h-full relative flex items-center">
+	<div class="text-theme-white font-serif">
+		<h1
+			class="font-black text-6xl max-w-md text-transparent bg-clip-text bg-gradient-to-br from-theme-pink to-theme-yellow"
+		>
+			Revamp<br /><span class="font-light text-theme-white"
+				>your datacenter with Pingtor</span
+			>
+		</h1>
+		<p class="mt-8">A techdriven intermediary with 10+ years of experience</p>
+	</div>
+	<aside class="grid absolute w-full top-0">
+		<div class="justify-self-end bg">
+			<World />
+		</div>
+	</aside>
 </div>
 
 <style>
-	.cursor-custom {
-		z-index: 10;
-		position: absolute;
-		background-color: rgba(245, 245, 245, 0.4);
-		border-radius: 50%;
-		height: 1em;
-		width: 1em;
-		pointer-events: none;
-		transform: translate(calc(-50% - 2em), calc(-50% - 2em));
+	.bg {
+		width: 60%;
 	}
 </style>

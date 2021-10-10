@@ -5,28 +5,27 @@ type L2P = Record<string, number>;
 
 const defaultPings = {
 	stockholm: 90,
-	lulea: 90,
-	paris: 180,
 	berlin: 120,
 	marseille: 140,
-	'sankt-petersburg': 90,
-	zurich: 140,
+	'saint-petersburg': 90,
 	london: 220,
-	reykjavik: 350,
 	'new-york': 250,
 	'las-vegas': 300,
 	'san-francisco': 320,
+	seattle: 320,
 	denver: 250,
 	miami: 250,
-	kapstaden: 770,
-	kairo: 450,
+	'cape-town': 770,
+	'new-delhi': 480,
+	seoul: 380,
 	singapore: 450,
 	taipei: 450,
 	hongkong: 450,
 	tokyo: 450,
 	auckland: 750,
 	melbourne: 750,
-	sydney: 750
+	sydney: 750,
+	perth: 730
 };
 export const location2ping = writable<L2P>(defaultPings);
 
