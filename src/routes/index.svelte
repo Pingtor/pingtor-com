@@ -11,8 +11,8 @@
 		<h1
 			class="font-black text-6xl max-w-md text-transparent bg-clip-text bg-gradient-to-br from-theme-pink to-theme-yellow"
 		>
-			Revamp<br /><span class="font-light text-theme-white"
-				>your datacenter with Pingtor</span
+			Wholesaler<br /><span class="font-light text-theme-white"
+				>of colocation</span
 			>
 		</h1>
 		<p class="mt-8">A techdriven intermediary with 10+ years of experience</p>
