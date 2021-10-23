@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Pingtor - start imagine.</title>
+	<title>Pingtor</title>
 </svelte:head>
 
 <div class="w-full h-full relative flex items-center">
@@ -15,7 +15,7 @@
 				>of colocation</span
 			>
 		</h1>
-		<p class="mt-8">A techdriven intermediary with 10+ years of experience</p>
+		<p class="mt-8">Datacenter experts with 10+ years of experience</p>
 	</div>
 	<aside class="grid absolute w-full top-0">
 		<div class="justify-self-end bg">
