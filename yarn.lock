@@ -100,6 +100,11 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
+"@sveltejs/adapter-static@^1.0.0-next.21":
+  version "1.0.0-next.21"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-1.0.0-next.21.tgz#b2819478e1cc7344491e6ebb6d2a49cef5f92fc9"
+  integrity sha512-B4+QoUVAaANKx+mHntG8SqF45zbj3Ct4Akg/cGauo6COyfKZRhO5OsMa+wPuT2TKJBZC4eEDK0p+p9nyQBkxKQ==
+
 "@sveltejs/adapter-vercel@next":
   version "1.0.0-next.30"
   resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.30.tgz#9a6443694b897390f7046d1f0ed24cf9d6358a78"
@@ -160,6 +165,11 @@
   integrity sha512-iZUcRrGuz/Tbg3loODpW7vrQJkUtpY2fFSf4ELqqkApcS2TkZ1msk7ie8iZPB86lDOP8QOTTmuvWjc5S0R9OjQ==
   dependencies:
     "@types/node" "*"
+
+"@types/tailwindcss@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@types/tailwindcss/-/tailwindcss-2.2.1.tgz#891349cc71b5a85208ca5796938d91dd48cc0417"
+  integrity sha512-raLwtQF+uul9lsvs7+GUizeNrpxRqbnckIu/va5hzPPwZsImZunkyLFAS/1rwEHhhvFMNiMJmTiP5PPGa0oNJA==
 
 "@typescript-eslint/eslint-plugin@^4.31.1":
   version "4.33.0"
@@ -1857,6 +1867,11 @@ svelte-hmr@^0.14.7:
   version "0.14.7"
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.7.tgz#7fa8261c7b225d9409f0a86f3b9ea5c3ca6f6607"
   integrity sha512-pDrzgcWSoMaK6AJkBWkmgIsecW0GChxYZSZieIYfCP0v2oPyx2CYU/zm7TBIcjLVUPP714WxmViE9Thht4etog==
+
+svelte-icons-pack@^1.4.6:
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/svelte-icons-pack/-/svelte-icons-pack-1.4.6.tgz#7062a88719e78459d414db65ae738b13cd9ad96b"
+  integrity sha512-z7ssT386ZT4WhyCOEje5UPT7e/bRA6ImoZlQL3FoUFuLCRIxP00vt6m0Q3LdCvy/q9TMtth4jREoBaqwYaC5aQ==
 
 svelte-popperjs@^1.2.6:
   version "1.2.6"
